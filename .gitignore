@@ -1,0 +1,18 @@
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# The raw CSV contains real phishing URL strings and must remain local.
+data/raw/*.csv
+data/raw/*.zip
+
+# Generated trained-model binaries are reproducible and should not be committed.
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pickle
+AGENTS.md
+existing_work_review.md
+log.md
+phishing_ml_hci_project_plan.md
